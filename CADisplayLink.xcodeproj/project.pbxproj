@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBF7DAD20E3496E00826336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF7DAC20E3496E00826336 /* AppDelegate.swift */; };
+		FDBF7DAF20E3496E00826336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF7DAE20E3496E00826336 /* ViewController.swift */; };
+		FDBF7DB220E3496E00826336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBF7DB020E3496E00826336 /* Main.storyboard */; };
+		FDBF7DB420E3496E00826336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBF7DB320E3496E00826336 /* Assets.xcassets */; };
+		FDBF7DB720E3496E00826336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBF7DB520E3496E00826336 /* LaunchScreen.storyboard */; };
+		FDBF7DC220E3496E00826336 /* CADisplayLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF7DC120E3496E00826336 /* CADisplayLinkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBF7DBE20E3496E00826336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBF7DA120E3496E00826336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBF7DA820E3496E00826336;
+			remoteInfo = CADisplayLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDBF7DA920E3496E00826336 /* CADisplayLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CADisplayLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF7DAC20E3496E00826336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBF7DAE20E3496E00826336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDBF7DB120E3496E00826336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDBF7DB320E3496E00826336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDBF7DB620E3496E00826336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDBF7DB820E3496E00826336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBF7DBD20E3496E00826336 /* CADisplayLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADisplayLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF7DC120E3496E00826336 /* CADisplayLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADisplayLinkTests.swift; sourceTree = "<group>"; };
+		FDBF7DC320E3496E00826336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBF7DA620E3496E00826336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF7DBA20E3496E00826336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBF7DA020E3496E00826336 = {
+			isa = PBXGroup;
+			children = (
+				FDBF7DAB20E3496E00826336 /* CADisplayLink */,
+				FDBF7DC020E3496E00826336 /* CADisplayLinkTests */,
+				FDBF7DAA20E3496E00826336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBF7DAA20E3496E00826336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF7DA920E3496E00826336 /* CADisplayLink.app */,
+				FDBF7DBD20E3496E00826336 /* CADisplayLinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBF7DAB20E3496E00826336 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF7DAC20E3496E00826336 /* AppDelegate.swift */,
+				FDBF7DAE20E3496E00826336 /* ViewController.swift */,
+				FDBF7DB020E3496E00826336 /* Main.storyboard */,
+				FDBF7DB320E3496E00826336 /* Assets.xcassets */,
+				FDBF7DB520E3496E00826336 /* LaunchScreen.storyboard */,
+				FDBF7DB820E3496E00826336 /* Info.plist */,
+			);
+			path = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		FDBF7DC020E3496E00826336 /* CADisplayLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF7DC120E3496E00826336 /* CADisplayLinkTests.swift */,
+				FDBF7DC320E3496E00826336 /* Info.plist */,
+			);
+			path = CADisplayLinkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBF7DA820E3496E00826336 /* CADisplayLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBF7DC620E3496E00826336 /* Build configuration list for PBXNativeTarget "CADisplayLink" */;
+			buildPhases = (
+				FDBF7DA520E3496E00826336 /* Sources */,
+				FDBF7DA620E3496E00826336 /* Frameworks */,
+				FDBF7DA720E3496E00826336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CADisplayLink;
+			productName = CADisplayLink;
+			productReference = FDBF7DA920E3496E00826336 /* CADisplayLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBF7DBC20E3496E00826336 /* CADisplayLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBF7DC920E3496E00826336 /* Build configuration list for PBXNativeTarget "CADisplayLinkTests" */;
+			buildPhases = (
+				FDBF7DB920E3496E00826336 /* Sources */,
+				FDBF7DBA20E3496E00826336 /* Frameworks */,
+				FDBF7DBB20E3496E00826336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBF7DBF20E3496E00826336 /* PBXTargetDependency */,
+			);
+			name = CADisplayLinkTests;
+			productName = CADisplayLinkTests;
+			productReference = FDBF7DBD20E3496E00826336 /* CADisplayLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBF7DA120E3496E00826336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.sarath.tutorials;
+				TargetAttributes = {
+					FDBF7DA820E3496E00826336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FDBF7DBC20E3496E00826336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDBF7DA820E3496E00826336;
+					};
+				};
+			};
+			buildConfigurationList = FDBF7DA420E3496E00826336 /* Build configuration list for PBXProject "CADisplayLink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBF7DA020E3496E00826336;
+			productRefGroup = FDBF7DAA20E3496E00826336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBF7DA820E3496E00826336 /* CADisplayLink */,
+				FDBF7DBC20E3496E00826336 /* CADisplayLinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBF7DA720E3496E00826336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF7DB720E3496E00826336 /* LaunchScreen.storyboard in Resources */,
+				FDBF7DB420E3496E00826336 /* Assets.xcassets in Resources */,
+				FDBF7DB220E3496E00826336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF7DBB20E3496E00826336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBF7DA520E3496E00826336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF7DAF20E3496E00826336 /* ViewController.swift in Sources */,
+				FDBF7DAD20E3496E00826336 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF7DB920E3496E00826336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF7DC220E3496E00826336 /* CADisplayLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBF7DBF20E3496E00826336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBF7DA820E3496E00826336 /* CADisplayLink */;
+			targetProxy = FDBF7DBE20E3496E00826336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBF7DB020E3496E00826336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBF7DB120E3496E00826336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDBF7DB520E3496E00826336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBF7DB620E3496E00826336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBF7DC420E3496E00826336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDBF7DC520E3496E00826336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBF7DC720E3496E00826336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72UCH54KZS;
+				INFOPLIST_FILE = CADisplayLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarath.CADisplayLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDBF7DC820E3496E00826336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72UCH54KZS;
+				INFOPLIST_FILE = CADisplayLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarath.CADisplayLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDBF7DCA20E3496E00826336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72UCH54KZS;
+				INFOPLIST_FILE = CADisplayLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarath.CADisplayLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADisplayLink.app/CADisplayLink";
+			};
+			name = Debug;
+		};
+		FDBF7DCB20E3496E00826336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72UCH54KZS;
+				INFOPLIST_FILE = CADisplayLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sarath.CADisplayLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADisplayLink.app/CADisplayLink";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBF7DA420E3496E00826336 /* Build configuration list for PBXProject "CADisplayLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF7DC420E3496E00826336 /* Debug */,
+				FDBF7DC520E3496E00826336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBF7DC620E3496E00826336 /* Build configuration list for PBXNativeTarget "CADisplayLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF7DC720E3496E00826336 /* Debug */,
+				FDBF7DC820E3496E00826336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBF7DC920E3496E00826336 /* Build configuration list for PBXNativeTarget "CADisplayLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF7DCA20E3496E00826336 /* Debug */,
+				FDBF7DCB20E3496E00826336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBF7DA120E3496E00826336 /* Project object */;
+}
