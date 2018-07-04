@@ -16,14 +16,18 @@ class StatsStackView: UIStackView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+      
+        self.addArrangedSubview(countingLabel1)
+        self.addArrangedSubview(countingLabel2)
+        self.addArrangedSubview(countingLabel3)
+        
         self.axis = .vertical
         self.distribution = .fillEqually
         self.spacing = 32
+        
         self.layoutMargins = UIEdgeInsets(top: 32, left: 32, bottom: 32, right: 32)
         self.isLayoutMarginsRelativeArrangement = true
-        self.addSubview(countingLabel1)
-        self.addSubview(countingLabel2)
-        self.addSubview(countingLabel3)
+
     }
     
     required init(coder: NSCoder) {

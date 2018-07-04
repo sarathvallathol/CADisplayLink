@@ -18,8 +18,7 @@ class ViewController: UIViewController {
         let stackView = StatsStackView()
         view.addSubview(stackView)
         stackView.frame = view.frame
-        
-       
+   
     }
 
     override func didReceiveMemoryWarning() {
