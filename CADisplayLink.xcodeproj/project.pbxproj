@@ -13,6 +13,8 @@
 		FDBF7DB420E3496E00826336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBF7DB320E3496E00826336 /* Assets.xcassets */; };
 		FDBF7DB720E3496E00826336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBF7DB520E3496E00826336 /* LaunchScreen.storyboard */; };
 		FDBF7DC220E3496E00826336 /* CADisplayLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF7DC120E3496E00826336 /* CADisplayLinkTests.swift */; };
+		FDD3C8E620ECAFF400994A24 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3C8E520ECAFF400994A24 /* CountingLabel.swift */; };
+		FDD3C8E820ECB4A700994A24 /* StatsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3C8E720ECB4A700994A24 /* StatsStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FDBF7DBD20E3496E00826336 /* CADisplayLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADisplayLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBF7DC120E3496E00826336 /* CADisplayLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADisplayLinkTests.swift; sourceTree = "<group>"; };
 		FDBF7DC320E3496E00826336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD3C8E520ECAFF400994A24 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		FDD3C8E720ECB4A700994A24 /* StatsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				FDBF7DB320E3496E00826336 /* Assets.xcassets */,
 				FDBF7DB520E3496E00826336 /* LaunchScreen.storyboard */,
 				FDBF7DB820E3496E00826336 /* Info.plist */,
+				FDD3C8E520ECAFF400994A24 /* CountingLabel.swift */,
+				FDD3C8E720ECB4A700994A24 /* StatsStackView.swift */,
 			);
 			path = CADisplayLink;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBF7DAF20E3496E00826336 /* ViewController.swift in Sources */,
+				FDD3C8E820ECB4A700994A24 /* StatsStackView.swift in Sources */,
+				FDD3C8E620ECAFF400994A24 /* CountingLabel.swift in Sources */,
 				FDBF7DAD20E3496E00826336 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
