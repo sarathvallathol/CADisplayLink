@@ -8,33 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CountingLabel: UILabel {
     
-    let countingLabel: UILabel  = {
-        let label = UILabel()
-        label.textAlignment = .center
-        label.text = "1234"
-        label.font = UIFont.boldSystemFont(ofSize: 18)
-        return label
-    }()
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.addSubview(countingLabel)
-        countingLabel.frame = view.frame
-        let displayLink = CADisplayLink(target: self, selector: #selector(handelUpdate))
-        displayLink.add(to: .main, forMode:.defaultRunLoopMode)
- 
-    }
-    
-    var startValue: Double = 500
+    let startValue: Double
     let endValue: Double   = 1000
     let animationDuration: Double = 3.5
     let animationStartDate = Date()
+    var displayLink: CADisplayLink?
     
-    
+    init(startValue: Double) {
+        
+        self.startValue = startValue
+        super.init(frame: .zero)
+        
+        self.text = "\(startValue)"
+        self.textAlignment = .center
+        self.font = UIFont.boldSystemFont(ofSize: 18)
+        
+        //CADISPLAY link animation
+        displayLink = CADisplayLink(target: self, selector: #selector(handelUpdate))
+        displayLink?.add(to: .main, forMode:.defaultRunLoopMode)
+        
+    }
     @objc func handelUpdate() {
         
         let now = Date()
@@ -42,19 +37,39 @@ class ViewController: UIViewController {
         let elapsedTime = now.timeIntervalSince(animationStartDate)
         
         if elapsedTime > animationDuration{
-            self.countingLabel.text = "\(endValue)"
-
+            self.text = "\(endValue)"
+            displayLink?.invalidate()
+            displayLink = nil
+            
         }else{
-        let percentage = elapsedTime / animationDuration
-        let value = startValue + percentage * (endValue - startValue)
-        self.countingLabel.text = "\(value)"
+            let percentage = elapsedTime / animationDuration
+            let value = startValue + percentage * (endValue - startValue)
+            self.text = "\(value)"
         }
         
     }
-//    func stopDisplayLink() {
-//        displayLink?.invalidate()
-//        displayLink = nil
-//    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+
+
+
+class ViewController: UIViewController {
+
+    
+    let countingLabel = CountingLabel(startValue: 888)
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.addSubview(countingLabel)
+        countingLabel.frame = view.frame
+       
+    }
+
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
